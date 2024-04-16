@@ -67,7 +67,7 @@ power.convert_to(:GWh)
 SI::Power[100] + 200
 #=> #<SI::Power 300 kW>
 
-SI::Power[100] + SI::Power[2000]
+SI::Power[100] + SI::Power[200]
 #=> #<SI::Power 300 kW>
 
 SI::Power[100] - SI::Power[50]
